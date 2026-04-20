@@ -38,8 +38,35 @@ nav ul li a:hover {
 }
 
 .intro{
-    text-align: center;
-    font-family: 'Georgia', serif;
-    color: antiquewhite;
+   text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: antiquewhite;
     font-size: larger;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.gallery img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: brown;
+    color: antiquewhite;
+    margin-top: 20px;
+}   
