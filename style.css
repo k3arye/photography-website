@@ -5,6 +5,9 @@ body{
     background-color: lightcoral;
     line-height: 1.6;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 header{
     color: antiquewhite;
