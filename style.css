@@ -118,6 +118,15 @@ h2 {
     background-color: antiquewhite;
     padding: 60px 20px;
     text-align: center;
+    border-radius: 20px;
+     margin: 100px;
+
+}
+p{
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    font-family: playfair display, serif;
 }
 
 .contact h2 {
