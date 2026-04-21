@@ -178,3 +178,9 @@ footer {
     color: antiquewhite;
     margin-top: 20px;
 }   
+#footer {
+    font-family: playfair display, serif;
+    font-size: 14px;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    color: antiquewhite;
+}
