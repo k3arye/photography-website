@@ -114,6 +114,54 @@ h2 {
   border-radius: 8px;
   font-size: 14px;
 }
+.contact {
+    background-color: antiquewhite;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    border-color: chocolate;
+}
+
+.contact button {
+    padding: 12px;
+    background-color: chocolate;
+    color: antiquewhite;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: rgb(150, 69, 12)
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
